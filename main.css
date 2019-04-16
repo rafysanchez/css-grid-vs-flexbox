@@ -7,7 +7,7 @@ body {
     margin: 0;
     display: grid;
     grid-template-columns: 30% auto;
-    grid-template-rows: 60px auto 60px;
+    grid-template-rows: 10vh 80vh 10vh;
     grid-template-areas: "hd hd"
                          "sidebar main"
                          "footer footer";
@@ -49,6 +49,7 @@ footer {
     justify-content: center;
     align-items: center;
     height: 100%;
+ 
 }
 
 .navigation-item {
